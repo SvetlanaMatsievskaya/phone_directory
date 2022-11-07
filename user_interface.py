@@ -10,7 +10,7 @@ def get_info ():
         try:
             phone_number = input('Введите номер телефона: ')
             if len(phone_number) != 11:
-                print('В номере телефона должно быть 11 цифр.')
+                print('Номер телефона должен содержать 11 цифр.')
             else:
                 phone_number = int(phone_number)
                 valid = True
